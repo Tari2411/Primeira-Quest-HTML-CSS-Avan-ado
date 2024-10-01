@@ -1,0 +1,125 @@
+html{
+    background-color: rgb(91, 74, 155) ;
+    display: flex;
+    max-width: 1440px;
+}
+
+body{
+    font-weight: 400;
+    background-image: url(./images/bg-desktop.svg);
+    padding: 10px 30px;
+    color: white;
+    background-size: cover;
+    
+}
+
+.navegation{
+    display: flex;
+    margin-top: 30px;
+    
+}
+
+.sec1 img{
+  width: 700px;
+  height: 500px;
+
+}
+
+
+.sec2{
+    display: flex;
+  justify-content: center;
+   text-align: left;
+   width: 650px;
+   height: 150px;
+   padding: 0 30px;
+   flex-direction: column;
+ 
+   
+}
+h1{
+   font-family: 'Poppins', sans-serif;
+   font-weight: 600;
+}
+p {
+   font-weight: 300;
+   
+   font-family: 'Open Sans', sans-serif;
+
+}
+.sec2 .greetings{
+    padding: 100px 20px;
+    height: 150px;
+margin-top: 50px;
+width: 450px;
+}
+
+.sec2 h1{
+    font-size: 35px;
+    padding-bottom: 2px;
+}
+
+.botão{
+   width: 160px;
+   height: 2.7rem ;
+   display: flex;
+   padding-left: 20px;
+   padding-top: 12px;
+}
+
+.botão a{
+    width: 160px;
+    height: 2.6rem;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    color: rgb(69, 54, 122);
+    box-shadow: 7px 5px 10px rgb(69, 54, 122);
+    transition: 0.4s;
+    font-family: 'Open Sans', sans-serif;
+
+
+
+}
+.botão:hover a{
+    background-color: violet;
+    color: #ffff;
+    cursor: pointer;
+}
+
+.rodapé{
+    display: flex;
+    height: 85px;
+   justify-content: flex-end;
+  
+}
+
+.rodapé nav ul{
+    display: flex;
+    margin-right: 50px;
+    
+}
+
+.rodapé nav ul li a{
+    display: flex;
+   height: 2.5rem;
+   width: 2.5rem;
+   font-size: 1.3rem;
+   color: #ffff;
+   border: 2px solid #ffff;
+   border-radius: 50px;
+   align-items: center;
+   justify-content: center;
+   margin: 8px;
+   transition: 0.4s;
+
+}
+.rodapé nav ul li:hover a{
+   border-color: magenta;
+    cursor: pointer;
+    color: magenta
+    
+}
+
